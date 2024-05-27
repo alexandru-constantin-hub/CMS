@@ -10,7 +10,7 @@ class ContentController extends Controller
 {
     public function index()
     {
-        return Inertia::render('Content', [
+        return Inertia::render('Content/Show', [
             'content' => Content::paginate(10),
         ]);
     }

@@ -7,7 +7,7 @@ export default function Content({ auth, contents }: PageProps) {
     return (
             <>
              <Head title="Dashboard" />
-            <div>{JSON.stringify(contents.data)}</div>
+            <div>{JSON.stringify(content.data)}</div>
             
             </>  
     );
